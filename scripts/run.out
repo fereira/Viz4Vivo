@@ -1,0 +1,293 @@
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.VizPostProcessor getCurrentDate
+INFO: 2017-06-16
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.VizPostProcessor runProcess
+INFO: 
+
+---------- STARTING INFERRED KEYWORD HARVEST PROCESS----------
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordminer.article.ArticleKeywordMinerEntryPoint readArticleMapFile
+INFO: article to title-abstract count:108
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordminer.article.ArticleKeywordMinerEntryPoint readMasterArticleFile
+INFO: KW MINDER: reading master KW Article file from /cul/data/vivoviz/SUPPL_FOLDER/MASTER_KeywordMiner_ARTICLEID.csv
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordminer.article.ArticleKeywordMinerEntryPoint readMasterArticleFile
+INFO: KW MINDER: reading master kw miner article file....completed
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordminer.article.ArticleKeywordMinerEntryPoint readMasterArticleFile
+INFO: KW MINDER: master kw miner article size:108
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordminer.article.ArticleKeywordMinerEntryPoint filterNewArticles
+INFO: KW MINDER: New KW Miner Article size:0
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordminer.article.ArticleKeywordMinerEntryPoint runProcess
+INFO: 0 new articles found.....returning.
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.VizPostProcessor runProcess
+INFO: 
+
+---------- STARTING HOMEPAGE LEVEL KEYWORD CLOUD GENERATOR PROCESS----------
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator readArticle2PersonMapFile
+INFO: UNIV-LEVEL KEYWORD CLOUD: Article to Person Set Map size:45
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator runProcess
+INFO: article2person map size: 45
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator getLines
+INFO: Total number of freetext keywords:340
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator runProcess
+INFO: allkeywords map size: 340
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator getConceptLines
+INFO: Total number of concept terms:421
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator getArticleKeywordConceptMap
+INFO: Reading : Article2KeywordSetMap.txt
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator getArticleKeywordConceptMap
+INFO: article to keywords/concept line count: 75
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator getArticleKeywordConceptMap
+INFO: kwCount: 382
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator runProcess
+INFO: articleKWMap size: 75
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator getArticleKeywordConceptMap
+INFO: Reading : Article2ConceptMap.txt
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator getArticleKeywordConceptMap
+INFO: article to keywords/concept line count: 95
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator getArticleKeywordConceptMap
+INFO: kwCount: 554
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator runProcess
+INFO: keywordMap size: 171
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator getConceptTermToPersonMap
+INFO: article2person2 size: 45
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator runProcess
+INFO: groupedMap size: 384
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.keywordcloudgenerator.SiteLevelKeywordCloudGenerator runProcess
+INFO: NFPersonArticles: 58
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.VizPostProcessor runProcess
+INFO: 
+
+---------- STARTING JOURNAL TO SUBJECT AREA MAP PROCESS----------
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.journalsubjectareamapper.JournalToSubjectAreaMapEntryPoint readMasterJournalFile
+INFO: COLLAB1: reading master journal file..../cul/data/vivoviz/SUPPL_FOLDER/MASTER_JOURNALID.csv
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.journalsubjectareamapper.JournalToSubjectAreaMapEntryPoint readMasterJournalFile
+INFO: JOURNAL: reading master journal file....completed
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.journalsubjectareamapper.JournalToSubjectAreaMapEntryPoint readMasterJournalFile
+INFO: JOURNAL: master journal size: 59
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.journalsubjectareamapper.JournalToSubjectAreaMapEntryPoint readAndFilterSCHLJournalCSVFile
+INFO: JRNL2SA: Reading Scholars Journals data from /cul/data/vivoviz/QUERY_RESULTS/2017-06-16/Journal2IssnEissnSubjectAreaMap.txt
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.journalsubjectareamapper.JournalToSubjectAreaMapEntryPoint readAndFilterSCHLJournalCSVFile
+INFO: JRNL2SA: lineCount 60
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.journalsubjectareamapper.JournalToSubjectAreaMapEntryPoint readAndFilterSCHLJournalCSVFile
+INFO: JRNL2SA: scholars journal count 0
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.journalsubjectareamapper.JournalToSubjectAreaMapEntryPoint runProcess
+INFO: JOURNAL: 0 new journals found....returning
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.VizPostProcessor runProcess
+INFO: 
+
+---------- STARTING COLLABORATION DATA PROCESS----------
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator readOrgCodeMapFile
+INFO: Reading orgCodeMapFile: /cul/data/vivoviz/SUPPL_FOLDER/org-orgcode-map.csv
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator readOrgCodeMapFile
+INFO: org code file line count 104
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator readInputFile
+INFO: CollabVizDataGenerator: reading input file /cul/data/vivoviz/QUERY_RESULTS/2017-06-16/crossunit-n3272.csv
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator readInputFile
+INFO: input file line count: 631
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator readInputFile
+INFO: read set size: 18
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processData
+INFO: Reading college info: crossunit-n3272.csv
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processData
+INFO: college Description College of Agriculture and Life Sciences
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+INFO: Process College: college = CALS
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+SEVERE: No Org code found for Makerere University.....
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+SEVERE: No Org code found for NextGen Cassava,IITA.....
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+SEVERE: No Org code found for NARO.....
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+SEVERE: No Org code found for NextGen Cassava,NaCRRI.....
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+SEVERE: No Org code found for Uganda Virus Research Institute.....
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+SEVERE: No Org code found for Consultant.....
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+SEVERE: No Org code found for CIP.....
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+SEVERE: No Org code found for Cultural Practice.....
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+SEVERE: No Org code found for "Natural Resources Institute (NRI), University of Greenwich".....
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+SEVERE: No Org code found for Cornell University.....
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+SEVERE: No Org code found for IITA.....
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processData
+INFO: PROCESS COMPLETED
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator readInputFile
+INFO: CollabVizDataGenerator: reading input file /cul/data/vivoviz/QUERY_RESULTS/2017-06-16/interdept-n3272.csv
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator readInputFile
+INFO: input file line count: 3
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator readInputFile
+INFO: read set size: 2
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processData
+INFO: Reading college info: interdept-n3272.csv
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processData
+INFO: college Description College of Agriculture and Life Sciences
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processACollege
+INFO: Process College: college = CALS
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.collaborationwheel.CollabVizDataGenerator processData
+INFO: PROCESS COMPLETED
+Jun 16, 2017 9:30:59 AM edu.cornell.mannlib.viz.VizPostProcessor runProcess
+INFO: 
+
+---------- STARTING COLLABORATION DATA PROCESS----------
+Jun 16, 2017 9:31:06 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.GlobalCollaborationHarvesterEntryPoint readWOSDataFile
+INFO: GLOBAL COLLAB: 58185 lines read.
+Jun 16, 2017 9:31:06 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.GlobalCollaborationHarvesterEntryPoint readGRIDMapperFile
+INFO: GLOBAL COLLAB: 0 lines read from grid map file.
+Jun 16, 2017 9:31:06 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.GlobalCollaborationHarvesterEntryPoint readPerson2ArticleMapFile
+INFO: GLOBAL COLLAB: 1 lines read from person 2 article map file.
+Jun 16, 2017 9:31:06 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.GlobalCollaborationHarvesterEntryPoint readArticle2SubjectArea
+INFO: GLOBAL COLLAB: 68 lines read from article 2 subject area map file.
+article to id map1
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: ngilao  GU USA;
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: rinid & Tobago;
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found: Univ W Indies, Dept Life Sci, St Augustine, Trinid & Tobago;
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: rinid & Tobago;
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found: Univ W Indies, Dept Life Sci, St Augustine, Trinid & Tobago;
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found:   GU 96923 USA;
+Thanh Nguyen
+null
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: eontol Res Inst
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  Warren D.,Paleontol Res Inst
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found:  E. Vassar Coll
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  Mary E.,Vassar Coll
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: NNE SWITZERLAND
+article found
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: iv Andres Bello
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  Andrea I. Moreno,Univ Andres Bello
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found:  M. Univ Guelph
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  Andrew M.,Univ Guelph
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found:  M. Univ Guelph
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  Andrew M.,Univ Guelph
+Wiedmann
+null
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found:  M. Univ Guelph
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  Andrew M.,Univ Guelph
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: NNE SWITZERLAND
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: ngilao  GU USA;
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: ngilao  GU USA;
+Feng Feng
+null
+Yong Zhao
+null
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: gkok  Thailand;
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: ridge  England;
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: N 1 FED REP GER
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found: UNIV BONN,INST OPERAT RES,D-5300 BONN 1,FED REP GER
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: N 1 FED REP GER
+Jun 16, 2017 9:31:07 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found: UNIV BONN,INST OKONOMETRIE & OPERAT RES,D-5300 BONN 1,FED REP GER
+Thanh D. Nguyen
+null
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: N 1 FED REP GER
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found: UNIV BONN,INST OPERAT RES,D-5300 BONN 1,FED REP GER
+Allmon
+null
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: ussian Acad Sci
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  G. V.,Russian Acad Sci
+Fennie
+null
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found:  Jochen,ETH
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  Jochen,ETH
+Koch
+null
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: ibniz Inst DSMZ
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  Johannes,Leibniz Inst DSMZ
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: ry E. Univ Iowa
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  Mary E.,Univ Iowa
+Lovelace
+null
+Kornreich
+null
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: niv Connecticut
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  Alexander,Univ Connecticut
+Haynes
+null
+Lovelace
+null
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: ussian Acad Sci
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found:  A. V.,Russian Acad Sci
+Strichartz
+null
+Romanova
+null
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: o  GU 96923 USA
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: o  GU 96923 USA
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found:  Arab Emirates;
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found: Masdar Inst Sci & Technol, Chem Engn Program, Abu Dhabi, U Arab Emirates;
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal findUSAState
+WARNING: USA State not found: N 1 FED REP GER
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzerExternal processCollaborationData
+WARNING: Country and US State not found: UNIV BONN,INST OKONOMETRIE & OPERAT RES,D-5300 BONN 1,FED REP GER
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzer analyzeData
+INFO: total publications: 10969
+Jun 16, 2017 9:31:08 AM edu.cornell.mannlib.viz.collaboration.globalcollabharvester.AffiliationDataAnalyzer analyzeData
+INFO: local publications: 4017
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@2128239c
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@2128239c
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@9f928278
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@91697f6f
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@438d1a95
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@7dec59e9
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@8b9e58e8
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@8b9e58e8
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@8b9e58e8
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@3a990832
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@b2b29ce7
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@91697f6f
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@2158ce94
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@367b206d
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@3a447b2c
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@b43930e5
+Country and State values are NULL: edu.cornell.mannlib.viz.collaboration.datamodel.data.AuthorAffiliation@8b9e58e8
+Jun 16, 2017 9:31:09 AM edu.cornell.mannlib.viz.VizPostProcessor runProcess
+INFO: 
+
+---------- ALL PROCESSES COMPLETED----------

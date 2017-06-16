@@ -1,0 +1,48 @@
+#csv
+PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl:      <http://www.w3.org/2002/07/owl#>
+PREFIX vitro:    <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#>
+PREFIX bibo:     <http://purl.org/ontology/bibo/>
+PREFIX hr:       <http://scholars.cornell.edu/ontology/hr.owl#>
+PREFIX fabio:    <http://purl.org/spar/fabio/>
+PREFIX foaf:     <http://xmlns.com/foaf/0.1/>
+PREFIX obo:      <http://purl.obolibrary.org/obo/>
+PREFIX vivoc:    <http://scholars.cornell.edu/ontology/vivoc.owl#>
+PREFIX vivo:     <http://vivoweb.org/ontology/core#>
+
+SELECT ?dept1L ?per1 ?p1 ?dept2L ?per2 ?p2 ?artL ?art ?dt
+WHERE
+{
+?per1 a foaf:Person .
+?per2 a foaf:Person .
+?per1 vivo:relatedBy ?pos1 .
+?pos1 a vivo:Position .
+?pos1 vivo:relates <http://localhost:8080/vivo-1.10/individual/n3272> .
+?pos1 vivo:relates ?dept1 .
+?dept1 a foaf:Organization .
+?dept1 rdfs:label ?dept1L .
+?per2 vivo:relatedBy ?pos2 .
+?pos2 a vivo:Position .
+?pos2 vivo:relates <http://localhost:8080/vivo-1.10/individual/n3272> .
+?pos2 vivo:relates ?dept2 .
+?dept2 a foaf:Organization .
+?dept2 rdfs:label ?dept2L .
+# FILTER(str(?dept1) != str(?dept2)) .
+?per1 rdfs:label ?p1 .
+?per2 rdfs:label ?p2 .
+#FILTER (!langMatches(lang(?p1), "*")) .
+#FILTER (!langMatches(lang(?p2), "*")) .
+FILTER(str(?per1) != str(?per2)) .
+# ?per1 vivo:relatedBy ?auth1 .
+# ?auth1 a vivo:Authorship .
+# ?per2 vivo:relatedBy ?auth2 .
+# ?auth2 a vivo:Authorship .
+# ?auth1 vivo:relates ?art .
+# ?auth2 vivo:relates ?art .
+# ?art a bibo:Article .
+# ?art rdfs:label ?artL .
+# ?art vivo:dateTimeValue ?dtv .
+# ?dtv vivo:dateTime ?dt .
+}

@@ -1,0 +1,62 @@
+#csv
+
+PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl:      <http://www.w3.org/2002/07/owl#>
+PREFIX swrl:     <http://www.w3.org/2003/11/swrl#>
+PREFIX swrlb:    <http://www.w3.org/2003/11/swrlb#>
+PREFIX vitro:    <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#>
+PREFIX bibo:     <http://purl.org/ontology/bibo/>
+PREFIX c4o:      <http://purl.org/spar/c4o/>
+PREFIX cito:     <http://purl.org/spar/cito/>
+PREFIX hr:       <http://scholars.cornell.edu/ontology/hr.owl#>
+PREFIX event:    <http://purl.org/NET/c4dm/event.owl#>
+PREFIX fabio:    <http://purl.org/spar/fabio/>
+PREFIX foaf:     <http://xmlns.com/foaf/0.1/>
+PREFIX geo:      <http://aims.fao.org/aos/geopolitical.owl#>
+PREFIX obo:      <http://purl.obolibrary.org/obo/>
+PREFIX ocrer:    <http://purl.org/net/OCRe/research.owl#>
+PREFIX ocresd:   <http://purl.org/net/OCRe/study_design.owl#>
+PREFIX ospcu:    <http://scholars.cornell.edu/ontology/ospcu.owl#>
+PREFIX vivoc:    <http://scholars.cornell.edu/ontology/vivoc.owl#>
+PREFIX skos:     <http://www.w3.org/2004/02/skos/core#>
+PREFIX vcard:    <http://www.w3.org/2006/vcard/ns#>
+PREFIX vitro-public: <http://vitro.mannlib.cornell.edu/ns/vitro/public#>
+PREFIX vivo:     <http://vivoweb.org/ontology/core#>
+PREFIX scires:   <http://vivoweb.org/ontology/scientific-research#>
+
+SELECT ?unit1L ?per1 ?p1 ?unit2L ?per2 ?p2 ?artL ?art ?dt
+WHERE
+{
+?per1 a foaf:Person .
+?per2 a foaf:Person .
+?per1 vivo:relatedBy ?pos1 .
+?pos1 a vivo:Position .
+?pos1 vivo:relates ?unit1 .
+?unit1 a foaf:Organization .
+?unit1 rdfs:label ?unit1L .
+FILTER (str(?unit1) = "http://localhost:8080/vivo-1.10/individual/n3272") .
+?per2 vivo:relatedBy ?pos2 .
+?pos2 a vivo:Position .
+?pos2 vivo:relates ?unit2 .
+?unit2 a foaf:Organization .
+?unit2 rdfs:label ?unit2L .
+FILTER(str(?unit2) != "http://localhost:8080/vivo-1.10/individual/n3272") .
+?per1 rdfs:label ?p1 .
+?per2 rdfs:label ?p2 .
+FILTER (!langMatches(lang(?p1), "*")) .
+FILTER (!langMatches(lang(?p2), "*")) .
+FILTER(str(?per1) != str(?per2)) .
+?per1 vivo:relatedBy ?auth1 .
+?auth1 a vivo:Authorship .
+?per2 vivo:relatedBy ?auth2 .
+?auth2 a vivo:Authorship .
+# ?auth1 vivo:relates ?art .
+# ?auth2 vivo:relates ?art .
+# ?art a bibo:Article .
+# ?art rdfs:label ?artL .
+# ?art vivo:dateTimeValue ?dtv .
+# ?dtv vivo:dateTime ?dt .
+}
+
