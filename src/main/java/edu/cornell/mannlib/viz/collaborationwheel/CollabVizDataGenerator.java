@@ -86,8 +86,12 @@ public class CollabVizDataGenerator {
 		 
 		college.setDescription(getFullCollegeName(inputFileName));
 		LOGGER.info("college Description "+ college.getDescription());
-		college.setName(orgFullNameToCodeMap.get(getFullCollegeName(inputFileName).toLowerCase()));
-		
+		String fullCollegeName = getFullCollegeName(inputFileName);
+		if (fullCollegeName != null) {
+		   college.setName(orgFullNameToCodeMap.get(fullCollegeName).toLowerCase());
+		} else {
+			college.setName("");
+		}
 		boolean isCrossUnit = false;
 		if(inputFileName.startsWith("crossunit")){
 			isCrossUnit = true;

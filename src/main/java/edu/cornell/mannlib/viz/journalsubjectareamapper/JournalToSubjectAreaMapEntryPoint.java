@@ -269,7 +269,7 @@ public class JournalToSubjectAreaMapEntryPoint {
 					new_obj.setTitle(tokens[1]);
 					new_obj.setIssn(tokens[2]);
 					new_obj.setEissn(tokens[3]);
-					LOGGER.info("JRNL2SA: adding uri: "+ fixedUri);
+					//LOGGER.info("JRNL2SA: adding uri: "+ fixedUri);
 					schlrs_journals_map.put(fixedUri, new_obj);
 					lineCount++;
 				} catch (ArrayIndexOutOfBoundsException exp) {
