@@ -3,3 +3,5 @@ build/
 support/
 .classpath
 .project
+queries/QUERY_FOLDER/cross*
+queries/QUERY_FOLDER/interdept*
